@@ -29,11 +29,19 @@ Data preprocessing.ipnyb
 # Data visualization 
 Visualization and correlations.ipnyb
 
+- Countplot for basic description of the attributes. 
+- Distplot for better apprehension of the data distribution 
+- Crosstabing with barplot to visualize the relation with target variable
+- Boxplot to visualize the range, means of different columns with respect to target variable.
+- Specific gender based visualization with boxplot, violinplot, catplot. 
 
 
+- Chi squared test for determining if the categorical variables are correlated to the target or       not. 
+- Correlation between the variables.
 
-# Correlations 
+- Discrepancies in data 
 
+- ANOVA test for determining relationship between target and numeric columns
 
 # Modeling 
 
