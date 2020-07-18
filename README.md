@@ -43,7 +43,25 @@ Visualization and correlations.ipnyb
 
 - ANOVA test for determining relationship between target and numeric columns
 
-# Modeling 
+# Modeling
 
+- Two different dataframes: scaled and unscaled
+- Test Train split 
+
+- Check if factor analysis is possible
+- Factor analysis. Obtained the number of major factors. 5/6 major factor were determined. 
+- Feature selection to remove low variance variables
+- Principal Component analysis to determine the major components.  
+
+  Firstly, no variables were removed. 
+  Scikit learn uses scaled dataset whereas scaled data affects the coefficient of statsmodel logit   function. This is why two dataframes were needed. 
+  
+- Logistic regression (Scikit learn), Random forest, SVC, KNN, Decision Tree, Naive Bayes algorithm   was used.
+- Logit from statmodel was implememnted to obtain the p values and coefficients. 
+- Backward elemination was performed 
+- Correlated variables were removed 
+- Interpretation of the coefficients 
+- Rerun the algorithms with reduced variables. 
+- Visualization of model performances
 
 
